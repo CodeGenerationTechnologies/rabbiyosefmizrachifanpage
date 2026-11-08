@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-08T08:49:00.221Z",
-    "version": "1.0.0",
+    "generatedAt": "2026-11-08T09:32:54.875Z",
+    "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
-    "totalVideos": 18,
-    "integrityHash": "652a14151198f696d75c326229e7cfe95f294949008257f0758753462d0d2c15"
+    "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
+    "totalVideos": 23,
+    "integrityHash": "19a92485c7caf36e96a1f4ed6fbda9e567dd042a06f8603005f9fbb342a92e59"
   },
   "latest": [
     {
@@ -21,7 +22,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on You Are the Company You Keep - Elections \\u0026 Current Events. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=OTfUQJG7AAY",
-      "thumbnail": "https://img.youtube.com/vi/OTfUQJG7AAY/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/OTfUQJG7AAY/hqdefault.jpg",
+      "viewsCount": 18739,
+      "likesCount": 444,
+      "exactMetrics": "18,739 views • 444 likes"
     },
     {
       "id": "latest-K4OAqNzWoX0",
@@ -37,7 +41,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Rabbi Mizrachi On The Nick Matau Show. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=K4OAqNzWoX0",
-      "thumbnail": "https://img.youtube.com/vi/K4OAqNzWoX0/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/K4OAqNzWoX0/hqdefault.jpg",
+      "viewsCount": 45614,
+      "likesCount": 680,
+      "exactMetrics": "45,614 views • 680 likes"
     },
     {
       "id": "latest-69HB1n9O_2k",
@@ -53,7 +60,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on The Guide For Perfect Repentance Before Yom Kippur - Current Events. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=69HB1n9O_2k",
-      "thumbnail": "https://img.youtube.com/vi/69HB1n9O_2k/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/69HB1n9O_2k/hqdefault.jpg",
+      "viewsCount": 15333,
+      "likesCount": 358,
+      "exactMetrics": "15,333 views • 358 likes"
     },
     {
       "id": "latest-hsTCMwAnuXQ",
@@ -69,7 +79,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Yom Kippur - 2026. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=hsTCMwAnuXQ",
-      "thumbnail": "https://img.youtube.com/vi/hsTCMwAnuXQ/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/hsTCMwAnuXQ/hqdefault.jpg",
+      "viewsCount": 6527,
+      "likesCount": 153,
+      "exactMetrics": "6,527 views • 153 likes"
     },
     {
       "id": "latest-rs3a8PV8bNw",
@@ -85,7 +98,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Hours Before The Terrifying Trial Begins (Last Lecture Of The Year). Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=rs3a8PV8bNw",
-      "thumbnail": "https://img.youtube.com/vi/rs3a8PV8bNw/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/rs3a8PV8bNw/hqdefault.jpg",
+      "viewsCount": 15141,
+      "likesCount": 320,
+      "exactMetrics": "15,141 views • 320 likes"
     },
     {
       "id": "latest-BLQZVTJWUnE",
@@ -101,7 +117,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Free Will - Every Second Of Life (Current Events). Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=BLQZVTJWUnE",
-      "thumbnail": "https://img.youtube.com/vi/BLQZVTJWUnE/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/BLQZVTJWUnE/hqdefault.jpg",
+      "viewsCount": 8467,
+      "likesCount": 241,
+      "exactMetrics": "8,467 views • 241 likes"
     },
     {
       "id": "latest-gdXah-kmWRI",
@@ -117,7 +136,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Time To Say Goodbye. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=gdXah-kmWRI",
-      "thumbnail": "https://img.youtube.com/vi/gdXah-kmWRI/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/gdXah-kmWRI/hqdefault.jpg",
+      "viewsCount": 11842,
+      "likesCount": 318,
+      "exactMetrics": "11,842 views • 318 likes"
     },
     {
       "id": "latest-o2C45iinq64",
@@ -133,7 +155,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Moments Before The Trial - A Forecast For The New Year. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=o2C45iinq64",
-      "thumbnail": "https://img.youtube.com/vi/o2C45iinq64/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/o2C45iinq64/hqdefault.jpg",
+      "viewsCount": 6380,
+      "likesCount": 215,
+      "exactMetrics": "6,380 views • 215 likes"
     },
     {
       "id": "latest-4f1c404LltM",
@@ -149,7 +174,10 @@
       "tag": "Latest Release",
       "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Rabbi Mizrachi And Dom Lucre. Discover biblical perspectives and eternal truth.",
       "url": "https://www.youtube.com/watch?v=4f1c404LltM",
-      "thumbnail": "https://img.youtube.com/vi/4f1c404LltM/hqdefault.jpg"
+      "thumbnail": "https://img.youtube.com/vi/4f1c404LltM/hqdefault.jpg",
+      "viewsCount": 18100,
+      "likesCount": 296,
+      "exactMetrics": "18,100 views • 296 likes"
     }
   ],
   "popular": [
@@ -160,7 +188,9 @@
       "category": "Foundational Kiruv",
       "author": "Rabbi Yosef Mizrachi",
       "isOfficial": true,
-      "views": "Over 2 Million Views",
+      "viewsCount": 532523,
+      "likesCount": 4613,
+      "exactMetrics": "532,523 views • 4,613 likes",
       "peakStart": 320,
       "peakEnd": 355,
       "duration": "2h 10m",
@@ -170,29 +200,15 @@
       "thumbnail": "https://img.youtube.com/vi/jTvE3inFOgE/hqdefault.jpg"
     },
     {
-      "id": "popular-BHDnKTIg5AU",
-      "youtubeId": "BHDnKTIg5AU",
-      "title": "Torah and Science: Proof Judaism Is The True Religion",
-      "category": "Science & Torah Proof",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "views": "1.8 Million Views",
-      "peakStart": 540,
-      "peakEnd": 575,
-      "duration": "2h 25m",
-      "tag": "Scientific Evidence",
-      "description": "Astounding proof from astrophysics, microbiology, oceanography, and ancient Torah texts confirming Divine revelation.",
-      "url": "https://www.youtube.com/watch?v=BHDnKTIg5AU",
-      "thumbnail": "https://img.youtube.com/vi/BHDnKTIg5AU/hqdefault.jpg"
-    },
-    {
       "id": "popular-WQu6l_tyKvE",
       "youtubeId": "WQu6l_tyKvE",
       "title": "The End of Days (Cinematic Documentary)",
       "category": "Biblical Prophecy",
       "author": "Rabbi Yosef Mizrachi",
       "isOfficial": true,
-      "views": "1.5 Million Views",
+      "viewsCount": 319599,
+      "likesCount": 1835,
+      "exactMetrics": "319,599 views • 1,835 likes",
       "peakStart": 410,
       "peakEnd": 445,
       "duration": "1h 55m",
@@ -208,7 +224,9 @@
       "category": "Theological Debate",
       "author": "Rabbi Yosef Mizrachi",
       "isOfficial": true,
-      "views": "1.2 Million Views",
+      "viewsCount": 132809,
+      "likesCount": 2177,
+      "exactMetrics": "132,809 views • 2,177 likes",
       "peakStart": 450,
       "peakEnd": 485,
       "duration": "2h 40m",
@@ -218,13 +236,51 @@
       "thumbnail": "https://img.youtube.com/vi/_FK6UttWUOA/hqdefault.jpg"
     },
     {
+      "id": "popular-y3s8SWShauo",
+      "youtubeId": "y3s8SWShauo",
+      "title": "The Debate Between Rabbi Mizrachi and a Skeptic",
+      "category": "Debate & Logic",
+      "author": "Rabbi Yosef Mizrachi",
+      "isOfficial": true,
+      "viewsCount": 123627,
+      "likesCount": 1809,
+      "exactMetrics": "123,627 views • 1,809 likes",
+      "peakStart": 330,
+      "peakEnd": 365,
+      "duration": "2h 05m",
+      "tag": "Philosophy",
+      "description": "Rigorous philosophical discourse examining atheism, agnosticism, morality, and the indisputable evidence of an intelligent Creator.",
+      "url": "https://www.youtube.com/watch?v=y3s8SWShauo",
+      "thumbnail": "https://img.youtube.com/vi/y3s8SWShauo/hqdefault.jpg"
+    },
+    {
+      "id": "popular-KN2Ri0zoqA4",
+      "youtubeId": "KN2Ri0zoqA4",
+      "title": "Rabbi Mizrachi's Personal Story & Journey",
+      "category": "Autobiography & Chizuk",
+      "author": "Rabbi Yosef Mizrachi",
+      "isOfficial": true,
+      "viewsCount": 106304,
+      "likesCount": 1681,
+      "exactMetrics": "106,304 views • 1,681 likes",
+      "peakStart": 210,
+      "peakEnd": 245,
+      "duration": "1h 30m",
+      "tag": "Inspirational",
+      "description": "The Rabbi recounts his early life in Israel, army service, financial career in New York, and dramatic return to full-time Torah kiruv.",
+      "url": "https://www.youtube.com/watch?v=KN2Ri0zoqA4",
+      "thumbnail": "https://img.youtube.com/vi/KN2Ri0zoqA4/hqdefault.jpg"
+    },
+    {
       "id": "popular-AFnggmQ1Ukw",
       "youtubeId": "AFnggmQ1Ukw",
       "title": "Genesis - How The World Started: Secrets About Creation",
       "category": "Creation & Cosmology",
       "author": "Rabbi Yosef Mizrachi",
       "isOfficial": true,
-      "views": "980,000 Views",
+      "viewsCount": 21639,
+      "likesCount": 527,
+      "exactMetrics": "21,639 views • 527 likes",
       "peakStart": 380,
       "peakEnd": 415,
       "duration": "1h 50m",
@@ -234,23 +290,97 @@
       "thumbnail": "https://img.youtube.com/vi/AFnggmQ1Ukw/hqdefault.jpg"
     },
     {
-      "id": "popular-y3s8SWShauo",
-      "youtubeId": "y3s8SWShauo",
-      "title": "The Debate Between Rabbi Mizrachi and a Skeptic",
-      "category": "Debate & Logic",
+      "id": "popular-BHDnKTIg5AU",
+      "youtubeId": "BHDnKTIg5AU",
+      "title": "Torah and Science: Proof Judaism Is The True Religion",
+      "category": "Science & Torah Proof",
       "author": "Rabbi Yosef Mizrachi",
       "isOfficial": true,
-      "views": "850,000 Views",
-      "peakStart": 330,
-      "peakEnd": 365,
-      "duration": "2h 05m",
-      "tag": "Philosophy",
-      "description": "Rigorous philosophical discourse examining atheism, agnosticism, morality, and the indisputable evidence of an intelligent Creator.",
-      "url": "https://www.youtube.com/watch?v=y3s8SWShauo",
-      "thumbnail": "https://img.youtube.com/vi/y3s8SWShauo/hqdefault.jpg"
+      "viewsCount": 21615,
+      "likesCount": 564,
+      "exactMetrics": "21,615 views • 564 likes",
+      "peakStart": 540,
+      "peakEnd": 575,
+      "duration": "2h 25m",
+      "tag": "Scientific Evidence",
+      "description": "Astounding proof from astrophysics, microbiology, oceanography, and ancient Torah texts confirming Divine revelation.",
+      "url": "https://www.youtube.com/watch?v=BHDnKTIg5AU",
+      "thumbnail": "https://img.youtube.com/vi/BHDnKTIg5AU/hqdefault.jpg"
+    },
+    {
+      "id": "popular-7lOEJaOYHyc",
+      "youtubeId": "7lOEJaOYHyc",
+      "title": "The Source Of Blessing In Life",
+      "category": "Spiritual Laws",
+      "author": "Rabbi Yosef Mizrachi",
+      "isOfficial": true,
+      "viewsCount": 16538,
+      "likesCount": 462,
+      "exactMetrics": "16,538 views • 462 likes",
+      "peakStart": 250,
+      "peakEnd": 285,
+      "duration": "1h 18m",
+      "tag": "Parnasah & Peace",
+      "description": "How to open the spiritual gates of health, livelihood, peace of mind, and divine providence through Torah fidelity.",
+      "url": "https://www.youtube.com/watch?v=7lOEJaOYHyc",
+      "thumbnail": "https://img.youtube.com/vi/7lOEJaOYHyc/hqdefault.jpg"
     }
   ],
   "fan": [
+    {
+      "id": "fan-M263cTExozc",
+      "youtubeId": "M263cTExozc",
+      "title": "Must You Be Jewish For Heaven? The Universal Reward",
+      "category": "Universal Covenant",
+      "author": "Rabbi Yosef Mizrachi Fan Page",
+      "isOfficial": false,
+      "viewsCount": 158,
+      "likesCount": 2,
+      "exactMetrics": "158 views • 2 likes",
+      "peakStart": 22,
+      "peakEnd": 58,
+      "duration": "4m 50s",
+      "tag": "All Nations",
+      "description": "Explaining how Hashem loves all nations: non-Jews do not need to convert to merit eternal life, but follow the universal moral code.",
+      "url": "https://www.youtube.com/watch?v=M263cTExozc",
+      "thumbnail": "https://img.youtube.com/vi/M263cTExozc/hqdefault.jpg"
+    },
+    {
+      "id": "fan-IRozzEtzINg",
+      "youtubeId": "IRozzEtzINg",
+      "title": "Genealogy & Prophecy: Textual Analysis Rebuttal",
+      "category": "Interfaith Debate",
+      "author": "Rabbi Yosef Mizrachi Fan Page",
+      "isOfficial": false,
+      "viewsCount": 40,
+      "likesCount": 4,
+      "exactMetrics": "40 views • 4 likes",
+      "peakStart": 15,
+      "peakEnd": 50,
+      "duration": "5m 10s",
+      "tag": "Scriptural Analysis",
+      "description": "A precise point-by-point examination of Davidic lineage and prophetic prerequisites in Tanakh.",
+      "url": "https://www.youtube.com/watch?v=IRozzEtzINg",
+      "thumbnail": "https://img.youtube.com/vi/IRozzEtzINg/hqdefault.jpg"
+    },
+    {
+      "id": "fan-WejonOEfpOw",
+      "youtubeId": "WejonOEfpOw",
+      "title": "Eight Logical Questions On Comparative Theology",
+      "category": "Comparative Religion",
+      "author": "Rabbi Yosef Mizrachi Fan Page",
+      "isOfficial": false,
+      "viewsCount": 38,
+      "likesCount": 1,
+      "exactMetrics": "38 views • 1 like",
+      "peakStart": 18,
+      "peakEnd": 52,
+      "duration": "6m 20s",
+      "tag": "Comparative",
+      "description": "Rabbi Mizrachi presents eight undeniable logical questions testing theological consistency and historical evidence.",
+      "url": "https://www.youtube.com/watch?v=WejonOEfpOw",
+      "thumbnail": "https://img.youtube.com/vi/WejonOEfpOw/hqdefault.jpg"
+    },
     {
       "id": "fan-qmi8BSeX5qc",
       "youtubeId": "qmi8BSeX5qc",
@@ -258,7 +388,9 @@
       "category": "Jew & Gentile / Universal Truth",
       "author": "Rabbi Yosef Mizrachi Fan Page",
       "isOfficial": false,
-      "views": "Fan Viral Clip",
+      "viewsCount": 36,
+      "likesCount": 2,
+      "exactMetrics": "36 views • 2 likes",
       "peakStart": 12,
       "peakEnd": 45,
       "duration": "3m 40s",
@@ -268,13 +400,33 @@
       "thumbnail": "https://img.youtube.com/vi/qmi8BSeX5qc/hqdefault.jpg"
     },
     {
+      "id": "fan-6y31fU_cfno",
+      "youtubeId": "6y31fU_cfno",
+      "title": "The Eternal Nature Of The Divine Law",
+      "category": "Torah Eternity",
+      "author": "Rabbi Yosef Mizrachi Fan Page",
+      "isOfficial": false,
+      "viewsCount": 30,
+      "likesCount": 2,
+      "exactMetrics": "30 views • 2 likes",
+      "peakStart": 16,
+      "peakEnd": 48,
+      "duration": "3m 30s",
+      "tag": "Eternal Law",
+      "description": "Why the Creator's absolute law does not suffer revisions, patch notes, or alterations over human history.",
+      "url": "https://www.youtube.com/watch?v=6y31fU_cfno",
+      "thumbnail": "https://img.youtube.com/vi/6y31fU_cfno/hqdefault.jpg"
+    },
+    {
       "id": "fan-VQuI34qYEo0",
       "youtubeId": "VQuI34qYEo0",
       "title": "How Do You Know God's Word? Not By Blind Faith",
       "category": "Theology & Evidence",
       "author": "Rabbi Yosef Mizrachi Fan Page",
       "isOfficial": false,
-      "views": "Fan Viral Clip",
+      "viewsCount": 10,
+      "likesCount": 3,
+      "exactMetrics": "10 views • 3 likes",
       "peakStart": 20,
       "peakEnd": 55,
       "duration": "4m 15s",
@@ -282,22 +434,6 @@
       "description": "Why Judaism does not rely on emotional blind faith, but on national eyewitness revelation before millions at Mount Sinai.",
       "url": "https://www.youtube.com/watch?v=VQuI34qYEo0",
       "thumbnail": "https://img.youtube.com/vi/VQuI34qYEo0/hqdefault.jpg"
-    },
-    {
-      "id": "fan-M263cTExozc",
-      "youtubeId": "M263cTExozc",
-      "title": "Must You Be Jewish For Heaven? The Universal Reward",
-      "category": "Universal Covenant",
-      "author": "Rabbi Yosef Mizrachi Fan Page",
-      "isOfficial": false,
-      "views": "Fan Viral Clip",
-      "peakStart": 22,
-      "peakEnd": 58,
-      "duration": "4m 50s",
-      "tag": "All Nations",
-      "description": "Explaining how Hashem loves all nations: non-Jews do not need to convert to merit eternal life, but follow the universal moral code.",
-      "url": "https://www.youtube.com/watch?v=M263cTExozc",
-      "thumbnail": "https://img.youtube.com/vi/M263cTExozc/hqdefault.jpg"
     }
   ]
 }

@@ -171,3 +171,92 @@ button, a {
     min-height: 40px;
   }
 }
+
+/* =========================================================================
+   JUKEBOX FLOATING BANNER & TURNTABLE RECORD STYLING
+   ========================================================================= */
+
+@keyframes jukeboxSlideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes jukeboxSlideRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.jukebox-track-left {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  animation: jukeboxSlideLeft 60s linear infinite;
+  will-change: transform;
+}
+
+.jukebox-track-right {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  animation: jukeboxSlideRight 70s linear infinite;
+  will-change: transform;
+}
+
+/* Pause the conveyor when hovering on track or when paused */
+.jukebox-marquee-container:hover .jukebox-track-left,
+.jukebox-marquee-container:hover .jukebox-track-right,
+.jukebox-track-left:hover,
+.jukebox-track-right:hover,
+.jukebox-paused .jukebox-track-left,
+.jukebox-paused .jukebox-track-right {
+  animation-play-state: paused !important;
+}
+
+/* Vinyl record pop-up effect on hover */
+.video-card:hover .vinyl-record-disc {
+  opacity: 1 !important;
+  transform: translate(-50%, -24px) !important;
+  filter: drop-shadow(0 -4px 12px rgba(245, 158, 11, 0.5));
+}
+
+/* Emphasized record selection in jukebox */
+.jukebox-card {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease, z-index 0.1s ease;
+}
+
+.jukebox-card:hover {
+  z-index: 50 !important;
+  transform: translateY(-14px) scale(1.05) !important;
+}
+
+.jukebox-rail {
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0.45) 50%, rgba(245, 158, 11, 0.08) 100%);
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.25);
+}
+
+/* Vinyl Grooves texture */
+.vinyl-grooves {
+  background: repeating-radial-gradient(
+    circle at center,
+    #18181b 0px,
+    #18181b 2px,
+    #27272a 3px,
+    #18181b 4px
+  );
+}
+
+/* Mask fade edges for smooth marquee entrance & exit */
+.mask-fade-edges {
+  mask-image: linear-gradient(to right, transparent 0%, black 2.5%, black 97.5%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 2.5%, black 97.5%, transparent 100%);
+}
+
+

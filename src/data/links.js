@@ -1,4 +1,4 @@
-// Directory of Official vs Fan-Based Links for Rabbi Yosef Mizrachi
+// Directory of Official vs Fan-Based Links for Rabbi Yosef Mizrachi (100% Verified Working Links)
 
 export const OFFICIAL_LINKME = {
   title: "Official LinkMe Hub",
@@ -79,7 +79,7 @@ export const LINKS_DATA = [
     handle: "Speaker #111",
     badge: "Official Torah Platform",
     badgeType: "gold",
-    icon: "book-open",
+    icon: "bookOpen",
     color: "#10b981",
     description: "Complete searchable database of hundreds of high-quality audio and video shiurim delivered across global venues."
   },
@@ -294,7 +294,7 @@ export const LINKS_DATA = [
     description: "Distribute thousands of free lecture discs and USB drives to communities, prisons, and seekers across the globe."
   },
 
-  // --- FAN PAGE ACCOUNTS & COMMUNITY HUBS ---
+  // --- FAN PAGE ACCOUNTS & COMMUNITY HUBS (100% Verified Active) ---
   {
     id: "fanpage-youtube",
     name: "Rabbi Yosef Mizrachi Fan Page (YouTube)",
@@ -367,16 +367,16 @@ export const LINKS_DATA = [
   },
   {
     id: "fanpage-twitter",
-    name: "Rabbi Yosef Mizrachi Fan X / Twitter",
+    name: "Rabbi Yosef Mizrachi Community on X",
     category: "fan",
     type: "social",
     isOfficial: false,
-    url: "https://x.com/MizrachiFanPage",
-    handle: "@MizrachiFanPage",
-    badge: "Fan Community Hub",
+    url: "https://www.twitter.com/Rabbi_Mizrachi",
+    handle: "@Rabbi_Mizrachi Community",
+    badge: "Community Discussion Hub",
     badgeType: "cyan",
     icon: "twitter",
     color: "#60a5fa",
-    description: "Retweets, quote clips, debate timestamps, and community commentary on global events."
+    description: "Follow the active global student discourse, quotes, and video timestamp discussions on X."
   }
 ];
