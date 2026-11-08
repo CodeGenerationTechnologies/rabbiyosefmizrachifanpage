@@ -1,0 +1,21 @@
+{
+  "name": "rabbiyosefmizrachifanpage",
+  "version": "1.0.0",
+  "description": "Rabbi Yosef Mizrachi Fan Page - Official Hub & Fan Community",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update-feed": "node scripts/update-videos.js"
+  },
+  "dependencies": {
+    "lucide": "^1.70.0",
+    "three": "^0.187.0",
+    "vite": "^8.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
