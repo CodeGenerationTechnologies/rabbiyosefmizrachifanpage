@@ -1,6 +1,7 @@
 // Main Application Entry Point
 
 import { ThreeCanvas } from './components/ThreeCanvas.js';
+import { createAnimatedLogo } from './components/AnimatedLogo.js';
 import { AudioExperience } from './components/AudioExperience.js';
 import { renderLinkMeHero } from './components/LinkMeHero.js';
 import { renderHighlightReels } from './components/HighlightReels.js';
@@ -15,41 +16,51 @@ document.addEventListener('DOMContentLoaded', () => {
     console.warn('WebGL initialization fallback:', err);
   }
 
-  // 2. Render Hero & LinkMe Showcase
+  // 2. Mount Animated Sacred Menorah Logos
+  const headerLogoMount = document.getElementById('header-logo-mount');
+  if (headerLogoMount) {
+    headerLogoMount.appendChild(createAnimatedLogo({ size: 'sm' }));
+  }
+
+  const footerLogoMount = document.getElementById('footer-logo-mount');
+  if (footerLogoMount) {
+    footerLogoMount.appendChild(createAnimatedLogo({ size: 'sm' }));
+  }
+
+  // 3. Render Hero & LinkMe Showcase
   const heroContainer = document.getElementById('hero-section');
   if (heroContainer) renderLinkMeHero(heroContainer);
 
-  // 3. Render Highlight Reels (Latest, Popular, Fan Highlights with Hover Preview)
+  // 4. Render Highlight Reels (Latest, Popular, Fan Highlights with Hover Audio Playback)
   const reelsContainer = document.getElementById('video-reels-section');
   if (reelsContainer) renderHighlightReels(reelsContainer);
 
-  // 4. Render Kiruv: Jew & Gentile Section
+  // 5. Render Kiruv: Jew & Gentile Section
   const kiruvContainer = document.getElementById('kiruv-mission-section');
   if (kiruvContainer) renderKiruvSection(kiruvContainer);
 
-  // 5. Render Full Official vs Fan Links Directory
+  // 6. Render Full Official vs Fan Links Directory
   const linksContainer = document.getElementById('links-directory-section');
   if (linksContainer) renderLinksDirectory(linksContainer);
 
-  // 6. Audio Experience Setup (Web Audio API 432Hz Sacred Resonance)
-  const audioExp = new AudioExperience();
+  // 7. Atmospheric Sanctuary Audio Experience (Uplifting & Inspiring 432Hz Sanctuary Tone)
   const soundBtn = document.getElementById('sound-toggle-btn');
   const soundLabel = document.getElementById('sound-label');
 
-  if (soundBtn) {
+  if (soundBtn && window.audioExperience) {
     soundBtn.addEventListener('click', () => {
-      const isPlaying = audioExp.toggle();
+      const isPlaying = window.audioExperience.toggle();
       if (isPlaying) {
-        soundBtn.classList.add('bg-amber-500/20', 'border-amber-400', 'text-amber-400');
-        soundLabel.textContent = 'Audio: 432Hz Playing';
+        soundBtn.classList.add('bg-amber-500/20', 'border-amber-400', 'text-amber-400', 'shadow-[0_0_15px_rgba(245,158,11,0.3)]');
+        soundLabel.textContent = 'Sanctuary Sound: On';
       } else {
-        soundBtn.classList.remove('bg-amber-500/20', 'border-amber-400', 'text-amber-400');
-        soundLabel.textContent = 'Audio: Off';
+        soundBtn.classList.remove('bg-amber-500/20', 'border-amber-400', 'text-amber-400', 'shadow-[0_0_15px_rgba(245,158,11,0.3)]');
+        soundLabel.textContent = 'Sanctuary Music';
       }
     });
   }
 
-  // 7. Copy Official LinkMe CTA
+  // 8. Copy Official LinkMe CTA
   const copyLinkMeBtn = document.getElementById('copy-linkme-btn');
   if (copyLinkMeBtn) {
     copyLinkMeBtn.addEventListener('click', () => {
@@ -66,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 8. Share & QR Modal Handlers
+  // 9. Share & QR Modal Handlers
   const shareBtn = document.getElementById('share-modal-btn');
   const modalOverlay = document.getElementById('share-modal-overlay');
   const closeModalBtn = document.getElementById('close-modal-btn');
@@ -108,10 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (modalCopySite) {
     modalCopySite.addEventListener('click', () => {
-      navigator.clipboard.writeText(window.location.href).then(() => {
+      navigator.clipboard.writeText('https://rabbiyosefmizrachifanpage.com').then(() => {
         modalCopySite.textContent = '✓ Copied Website URL!';
         setTimeout(() => {
-          modalCopySite.textContent = 'Copy Website URL';
+          modalCopySite.textContent = 'Copy Website URL (rabbiyosefmizrachifanpage.com)';
         }, 2200);
       });
     });

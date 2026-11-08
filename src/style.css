@@ -2,8 +2,15 @@
 @import "tailwindcss";
 
 :root {
-  --gold-glow: rgba(245, 158, 11, 0.4);
-  --cyan-glow: rgba(6, 182, 212, 0.4);
+  --gold-glow: rgba(245, 158, 11, 0.45);
+  --cyan-glow: rgba(6, 182, 212, 0.45);
+  --flame-glow: rgba(249, 115, 22, 0.55);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem; /* Prevents sticky header from covering anchor section titles */
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -11,23 +18,26 @@ body {
   background-color: #030614;
   color: #f8fafc;
   overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   selection-background-color: #f59e0b;
   selection-color: #000000;
 }
 
 .font-cinzel {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', Georgia, serif;
 }
 
 .font-cinzel-dec {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, serif;
 }
 
 .font-david {
-  font-family: 'David Libre', serif;
+  font-family: 'David Libre', 'Times New Roman', serif;
 }
 
-/* Custom 3D & Depth perspective */
+/* Enhanced 3D & Depth perspective */
 .perspective-1000 {
   perspective: 1000px;
 }
@@ -45,51 +55,119 @@ body {
   box-shadow: 0 0 60px -10px var(--cyan-glow);
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar - Sleek, smooth, unobtrusive */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #040714;
+  background: #02040d;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #1e293b;
   border-radius: 4px;
-  border: 1px solid rgba(245, 158, 11, 0.2);
+  border: 1px solid rgba(245, 158, 11, 0.25);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #d4af37;
+  background: #f59e0b;
 }
 
 /* Video Card 3D Depth Transitions */
 .video-card {
   perspective: 1000px;
+  will-change: transform;
 }
 
 .card-inner {
   transform-style: preserve-3d;
   will-change: transform;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+}
+
+/* Animated Sacred Menorah Logo Keyframes */
+@keyframes sacredFlameFlicker {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.04, 0.97) rotate(-1deg);
+  }
+  50% {
+    transform: scale(0.98, 1.05) rotate(1deg);
+  }
+  75% {
+    transform: scale(1.02, 1.01) rotate(-0.5deg);
+  }
+}
+
+@keyframes innerFlameDance {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(0.96, 1.06) translateY(-1px);
+    opacity: 1;
+  }
+}
+
+@keyframes sacredAuraPulse {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.15);
+  }
+}
+
+.animate-sacred-flame {
+  animation: sacredFlameFlicker 3s infinite ease-in-out;
+  transform-origin: 50% 85%;
+}
+
+.animate-inner-flame {
+  animation: innerFlameDance 2.2s infinite ease-in-out;
+  transform-origin: 50% 85%;
+}
+
+.animate-sacred-aura {
+  animation: sacredAuraPulse 4s infinite ease-in-out;
 }
 
 /* Sound Equalizer Animation */
 @keyframes barRise {
   0%, 100% { height: 4px; }
-  50% { height: 14px; }
+  50% { height: 13px; }
 }
 
-.animate-bar-1 { animation: barRise 0.6s infinite ease-in-out; }
-.animate-bar-2 { animation: barRise 0.8s infinite ease-in-out 0.2s; }
-.animate-bar-3 { animation: barRise 0.5s infinite ease-in-out 0.4s; }
+.animate-bar-1 { animation: barRise 0.5s infinite ease-in-out; }
+.animate-bar-2 { animation: barRise 0.7s infinite ease-in-out 0.15s; }
+.animate-bar-3 { animation: barRise 0.45s infinite ease-in-out 0.3s; }
 
 /* Subtle Floating Animation */
 @keyframes floatGentle {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
+  50% { transform: translateY(-6px); }
 }
 
 .animate-float {
-  animation: floatGentle 6s ease-in-out infinite;
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+/* Accessibility & Touch Adaptability */
+button, a {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 640px) {
+  /* Ensure comfortable touch tap targets on phones */
+  button, a {
+    min-height: 40px;
+  }
 }

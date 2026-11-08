@@ -1,38 +1,42 @@
-// LinkMe Hero Showcase: Promotes the official LinkMe & Fan Page Community Hub
+// LinkMe Hero Showcase: Promotes the official LinkMe & Rabbi Yosef Mizrachi Fan Page
 
 import { OFFICIAL_LINKME } from '../data/links.js';
+import { createAnimatedLogo } from './AnimatedLogo.js';
 
 export function renderLinkMeHero(container) {
   container.innerHTML = `
-    <div class="relative max-w-5xl mx-auto pt-8 pb-16 md:py-24 text-center">
+    <div class="relative max-w-5xl mx-auto pt-6 pb-14 md:py-20 text-center">
       
+      <!-- Top Animated Sacred Menorah Emblem -->
+      <div id="hero-animated-logo-container" class="flex items-center justify-center mb-6"></div>
+
       <!-- Luminous Top Halo Pill -->
-      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 via-yellow-500/10 to-amber-500/20 border border-amber-400/40 text-amber-300 text-xs md:text-sm font-semibold tracking-wider uppercase mb-8 shadow-[0_0_25px_rgba(245,158,11,0.25)] animate-pulse">
+      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 via-yellow-500/10 to-amber-500/20 border border-amber-400/40 text-amber-300 text-xs md:text-sm font-semibold tracking-wider uppercase mb-6 shadow-[0_0_25px_rgba(245,158,11,0.25)] animate-pulse">
         <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
         <span>The Official Gateway & Fan Community Hub</span>
       </div>
 
-      <!-- Main Title -->
-      <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight font-cinzel leading-none mb-6">
-        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-yellow-500 drop-shadow-[0_4px_30px_rgba(245,158,11,0.4)]">
-          rabbiyosefmizrachifanpage
+      <!-- Main Title with proper spaces: Rabbi Yosef Mizrachi Fan Page -->
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight font-cinzel leading-tight mb-4">
+        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-yellow-400 drop-shadow-[0_4px_30px_rgba(245,158,11,0.4)]">
+          Rabbi Yosef Mizrachi Fan Page
         </span>
-        <span class="block text-2xl sm:text-3xl md:text-4xl font-normal text-slate-300 mt-2 font-serif italic">
+        <span class="block text-xl sm:text-2xl md:text-3xl font-normal text-slate-200 mt-3 font-serif italic">
           Uniting Jew & Gentile in the Eternal Word of Hashem
         </span>
       </h1>
 
       <!-- Hebrew Blessing Banner -->
-      <div class="font-david text-xl md:text-2xl text-amber-300/80 mb-8 tracking-wider">
+      <div class="font-david text-xl sm:text-2xl md:text-3xl text-amber-300/90 mb-6 tracking-wider font-semibold">
         ״דע לפני מי אתה עומד — מלך מלכי המלכים הקדוש ברוך הוא״
       </div>
 
-      <p class="max-w-2xl mx-auto text-base md:text-lg text-slate-300/90 leading-relaxed font-light mb-12">
-        Welcome to the premier portal consolidating all <strong class="text-cyan-300">@rabbiyosefmizrachifanpage</strong> social channels while directing the global community to the authorized, official digital portals and <strong class="text-amber-300">Official LinkMe</strong> of world-renowned Kiruv speaker Rabbi Yosef Mizrachi.
+      <p class="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-normal mb-10">
+        Welcome to the central portal consolidating all <strong class="text-cyan-300">@RabbiYosefMizrachiFanPage</strong> social channels while directing the global community to the authorized, official digital portals and <strong class="text-amber-300">Official LinkMe</strong> of world-renowned Kiruv speaker Rabbi Yosef Mizrachi.
       </p>
 
       <!-- 3D HOLOGRAPHIC VIP HERO CARD (PROMOTING OFFICIAL LINKME) -->
-      <div class="relative max-w-xl mx-auto p-[2px] rounded-3xl bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-600 shadow-[0_0_60px_rgba(245,158,11,0.35)] transform hover:scale-[1.02] transition-transform duration-500">
+      <div class="relative max-w-xl mx-auto p-[2px] rounded-3xl bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-600 shadow-[0_0_60px_rgba(245,158,11,0.35)] transform hover:scale-[1.015] transition-transform duration-300">
         <div class="relative bg-gradient-to-b from-[#0e1635]/95 via-[#090e24]/95 to-[#040714]/95 backdrop-blur-2xl rounded-3xl p-6 sm:p-8 text-left overflow-hidden">
           
           <!-- Background Divine Ray Shimmer -->
@@ -41,7 +45,7 @@ export function renderLinkMeHero(container) {
 
           <!-- Dual Avatar Showcase (Rabbi Yosef Mizrachi Official + Fan Page Bridge) -->
           <div class="flex items-center justify-between mb-6">
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-3 sm:gap-4">
               <!-- Rabbi Official Avatar -->
               <div class="relative">
                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-xl shadow-amber-500/30">
@@ -54,7 +58,7 @@ export function renderLinkMeHero(container) {
 
               <!-- Interconnecting Kiruv Beam -->
               <div class="flex flex-col items-center justify-center px-1">
-                <span class="text-[10px] text-amber-400/80 font-mono">BRIDGED BY</span>
+                <span class="text-[10px] text-amber-400 font-mono font-bold">BRIDGED BY</span>
                 <svg class="w-6 h-4 text-amber-400 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </div>
 
@@ -72,24 +76,24 @@ export function renderLinkMeHero(container) {
             <!-- Follower Count Pill -->
             <div class="hidden sm:block text-right">
               <span class="text-xs font-mono text-amber-400 font-bold block">320K+ Reach</span>
-              <span class="text-[10px] text-slate-400 uppercase tracking-wider block">Global Seekers</span>
+              <span class="text-[10px] text-slate-300 uppercase tracking-wider block font-semibold">Global Seekers</span>
             </div>
           </div>
 
           <!-- Card Info -->
           <div>
-            <div class="flex items-center gap-2 mb-1">
-              <span class="px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">
                 PROMOTED OFFICIAL HUB
               </span>
-              <span class="text-xs text-slate-400 font-mono">${OFFICIAL_LINKME.handle}</span>
+              <span class="text-xs text-slate-300 font-mono font-medium">${OFFICIAL_LINKME.handle}</span>
             </div>
             
             <h3 class="text-2xl sm:text-3xl font-extrabold text-white font-cinzel">
               Rabbi Yosef Mizrachi Official LinkMe
             </h3>
             
-            <p class="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">
+            <p class="text-xs sm:text-sm text-slate-200 mt-2 leading-relaxed">
               Direct access to all authenticated platforms: Divine Information, TorahAnytime, Apple & Android Apps, Spotify podcasts, Rumble archives, and live events.
             </p>
           </div>
@@ -109,7 +113,7 @@ export function renderLinkMeHero(container) {
 
             <a 
               href="#video-reels-section" 
-              class="py-3 px-5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 text-xs font-bold transition-colors flex items-center justify-center gap-1.5"
+              class="py-3 px-5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-100 hover:text-white border border-slate-700 text-xs font-bold transition-colors flex items-center justify-center gap-1.5"
             >
               <span>Watch Highlight Reels</span>
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
@@ -121,4 +125,10 @@ export function renderLinkMeHero(container) {
 
     </div>
   `;
+
+  // Mount animated logo in hero
+  const logoContainer = container.querySelector('#hero-animated-logo-container');
+  if (logoContainer) {
+    logoContainer.appendChild(createAnimatedLogo({ size: 'lg' }));
+  }
 }
