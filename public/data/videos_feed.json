@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-09T03:13:05.752Z",
+    "generatedAt": "2026-11-10T03:11:43.452Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 23,
-    "integrityHash": "23e21ed0fe23f63ad8dbbbe983555e605179e94f99e810d52183274333d8f92b"
+    "totalVideos": 22,
+    "integrityHash": "c173a4a73d174197c4fb9a51a03f4ff9ebebe3d04df52f5d55175a1d88f22a05"
   },
   "latest": [
     {
@@ -159,25 +159,6 @@
       "viewsCount": 6380,
       "likesCount": 215,
       "exactMetrics": "6,380 views • 215 likes"
-    },
-    {
-      "id": "latest-4f1c404LltM",
-      "youtubeId": "4f1c404LltM",
-      "title": "Rabbi Mizrachi And Dom Lucre",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/4f1c404LltM/4f1c404LltM-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Rabbi Mizrachi And Dom Lucre. Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=4f1c404LltM",
-      "thumbnail": "https://img.youtube.com/vi/4f1c404LltM/hqdefault.jpg",
-      "viewsCount": 1000,
-      "likesCount": 296,
-      "exactMetrics": "1,000 views • 296 likes"
     }
   ],
   "popular": [
