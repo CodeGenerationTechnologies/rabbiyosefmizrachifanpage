@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-11T03:11:59.157Z",
+    "generatedAt": "2026-11-12T03:12:19.416Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 22,
-    "integrityHash": "92dfb2e007f7e1d5206b3e018cf41ecab3bd4f242d7c81fcd9737de821de27e7"
+    "totalVideos": 21,
+    "integrityHash": "e2285191cd913eeb52b7fa592cd7dd73752a8df1086347203daa07c6435b3638"
   },
   "latest": [
     {
@@ -140,25 +140,6 @@
       "viewsCount": 11842,
       "likesCount": 318,
       "exactMetrics": "11,842 views • 318 likes"
-    },
-    {
-      "id": "latest-o2C45iinq64",
-      "youtubeId": "o2C45iinq64",
-      "title": "Moments Before The Trial - A Forecast For The New Year",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/o2C45iinq64/o2C45iinq64-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Moments Before The Trial - A Forecast For The New Year. Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=o2C45iinq64",
-      "thumbnail": "https://img.youtube.com/vi/o2C45iinq64/hqdefault.jpg",
-      "viewsCount": 6380,
-      "likesCount": 215,
-      "exactMetrics": "6,380 views • 215 likes"
     }
   ],
   "popular": [
