@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-12T03:12:19.416Z",
+    "generatedAt": "2026-11-13T03:12:04.470Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 21,
-    "integrityHash": "e2285191cd913eeb52b7fa592cd7dd73752a8df1086347203daa07c6435b3638"
+    "totalVideos": 20,
+    "integrityHash": "a28cd69cae3a44856013dfc643e88185c3b6e45440321c720fb5c22dd0476510"
   },
   "latest": [
     {
@@ -121,25 +121,6 @@
       "viewsCount": 8467,
       "likesCount": 241,
       "exactMetrics": "8,467 views • 241 likes"
-    },
-    {
-      "id": "latest-gdXah-kmWRI",
-      "youtubeId": "gdXah-kmWRI",
-      "title": "Time To Say Goodbye",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/gdXah-kmWRI/gdXah-kmWRI-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Time To Say Goodbye. Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=gdXah-kmWRI",
-      "thumbnail": "https://img.youtube.com/vi/gdXah-kmWRI/hqdefault.jpg",
-      "viewsCount": 11842,
-      "likesCount": 318,
-      "exactMetrics": "11,842 views • 318 likes"
     }
   ],
   "popular": [
