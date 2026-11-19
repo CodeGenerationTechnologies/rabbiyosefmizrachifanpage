@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-18T03:12:32.095Z",
+    "generatedAt": "2026-11-19T03:12:11.021Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 20,
-    "integrityHash": "f781a399210d13dedd17d19dc6685b33cab130b19ba63f7316e4092a518bce87"
+    "totalVideos": 19,
+    "integrityHash": "b452d42b3814898a260bf963c547d83537edb28c154ca64771c5549dbaafb2f1"
   },
   "latest": [
     {
@@ -102,25 +102,6 @@
       "viewsCount": 15141,
       "likesCount": 320,
       "exactMetrics": "15,141 views • 320 likes"
-    },
-    {
-      "id": "latest-BLQZVTJWUnE",
-      "youtubeId": "BLQZVTJWUnE",
-      "title": "Free Will - Every Second Of Life (Current Events)",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/BLQZVTJWUnE/BLQZVTJWUnE-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Free Will - Every Second Of Life (Current Events). Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=BLQZVTJWUnE",
-      "thumbnail": "https://img.youtube.com/vi/BLQZVTJWUnE/hqdefault.jpg",
-      "viewsCount": 8467,
-      "likesCount": 241,
-      "exactMetrics": "8,467 views • 241 likes"
     }
   ],
   "popular": [
