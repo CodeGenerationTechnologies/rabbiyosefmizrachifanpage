@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-19T03:12:11.021Z",
+    "generatedAt": "2026-11-20T03:12:07.109Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 19,
-    "integrityHash": "b452d42b3814898a260bf963c547d83537edb28c154ca64771c5549dbaafb2f1"
+    "totalVideos": 18,
+    "integrityHash": "d6c60e012293af147c57f3883eee69a7bf483df081636b11aa7305a7c482371a"
   },
   "latest": [
     {
@@ -83,25 +83,6 @@
       "viewsCount": 6527,
       "likesCount": 153,
       "exactMetrics": "6,527 views • 153 likes"
-    },
-    {
-      "id": "latest-rs3a8PV8bNw",
-      "youtubeId": "rs3a8PV8bNw",
-      "title": "Hours Before The Terrifying Trial Begins (Last Lecture Of The Year)",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/rs3a8PV8bNw/rs3a8PV8bNw-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Hours Before The Terrifying Trial Begins (Last Lecture Of The Year). Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=rs3a8PV8bNw",
-      "thumbnail": "https://img.youtube.com/vi/rs3a8PV8bNw/hqdefault.jpg",
-      "viewsCount": 15141,
-      "likesCount": 320,
-      "exactMetrics": "15,141 views • 320 likes"
     }
   ],
   "popular": [
