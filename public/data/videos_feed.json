@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-20T03:12:07.109Z",
+    "generatedAt": "2026-11-21T03:11:06.259Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 18,
-    "integrityHash": "d6c60e012293af147c57f3883eee69a7bf483df081636b11aa7305a7c482371a"
+    "totalVideos": 17,
+    "integrityHash": "e26475562048209b50f488a40c26e7560280af8082dce63fbb6d63997a8a42bc"
   },
   "latest": [
     {
@@ -64,25 +64,6 @@
       "viewsCount": 15333,
       "likesCount": 358,
       "exactMetrics": "15,333 views • 358 likes"
-    },
-    {
-      "id": "latest-hsTCMwAnuXQ",
-      "youtubeId": "hsTCMwAnuXQ",
-      "title": "Yom Kippur - 2026",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/hsTCMwAnuXQ/hsTCMwAnuXQ-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on Yom Kippur - 2026. Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=hsTCMwAnuXQ",
-      "thumbnail": "https://img.youtube.com/vi/hsTCMwAnuXQ/hqdefault.jpg",
-      "viewsCount": 6527,
-      "likesCount": 153,
-      "exactMetrics": "6,527 views • 153 likes"
     }
   ],
   "popular": [
