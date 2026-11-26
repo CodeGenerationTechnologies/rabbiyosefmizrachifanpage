@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-25T03:12:09.568Z",
+    "generatedAt": "2026-11-26T03:11:58.615Z",
     "version": "1.1.0",
     "securityMode": "Strict-XSS-Sanitized-Daily-Feed",
     "metricsPolicy": "100%-Honest-YouTube-Figures-Verified",
-    "totalVideos": 17,
-    "integrityHash": "0a0b4eb4c235e28550b7a57525d7d7f9baf549cfa915e1ec934bd931c95728b1"
+    "totalVideos": 16,
+    "integrityHash": "7dc182079c5e9b3964ecb64a2fab49345f0d8c28112bf73b2f62c0b5e4d72cb4"
   },
   "latest": [
     {
@@ -45,25 +45,6 @@
       "viewsCount": 45614,
       "likesCount": 680,
       "exactMetrics": "45,614 views • 680 likes"
-    },
-    {
-      "id": "latest-69HB1n9O_2k",
-      "youtubeId": "69HB1n9O_2k",
-      "title": "The Guide For Perfect Repentance Before Yom Kippur - Current Events",
-      "category": "Torah & Current Events",
-      "author": "Rabbi Yosef Mizrachi",
-      "isOfficial": true,
-      "mp4Preview": "https://media.cdn-rabbimizrachi.org/69HB1n9O_2k/69HB1n9O_2k-360.mp4",
-      "peakStart": 180,
-      "peakEnd": 215,
-      "duration": "Full Lecture",
-      "tag": "Latest Release",
-      "description": "Watch Rabbi Yosef Mizrachi&#039;s discourse on The Guide For Perfect Repentance Before Yom Kippur - Current Events. Discover biblical perspectives and eternal truth.",
-      "url": "https://www.youtube.com/watch?v=69HB1n9O_2k",
-      "thumbnail": "https://img.youtube.com/vi/69HB1n9O_2k/hqdefault.jpg",
-      "viewsCount": 15333,
-      "likesCount": 358,
-      "exactMetrics": "15,333 views • 358 likes"
     }
   ],
   "popular": [
